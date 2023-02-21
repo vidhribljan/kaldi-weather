@@ -1,25 +1,36 @@
-.Card {
+.card {
     display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    box-shadow: 5px 2px 5px lightgray;
-    max-width: 500px;
-    padding: 8px 12px 0px 12px;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 3px 3px 5px #ababab;
+    min-width: 400px;
+    padding: 12px;
+    background-color: #ffffff;
     cursor: pointer;
 
-    .cardTemp {
-        font-size: 32px;
-        font-weight: 600;
-    }
-
-    .cardBottomRow {
+    .cardData {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+
+        .cardTemp {
+            font-size: 32px;
+            font-weight: 600;
+        }
 
         .cardCity {
             font-size: 16px;
             color: #757575;
         }
     }
+
+    .cardBottomRow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px #ababab;
+    background-color: lavender;
 }

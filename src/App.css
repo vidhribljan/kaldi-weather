@@ -1,3 +1,7 @@
-.container {
-  max-width: 1440px !important;
+body {
+  background-color: #f1f2f4;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

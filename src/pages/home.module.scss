@@ -1,0 +1,49 @@
+.navbar {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px;
+    box-shadow: 0px 6px 4px -3px darkgray;
+    position: fixed;
+    width: 100%;
+}
+
+.navbarInputWrapper {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.bodyWrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    .cardsWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .cityError {
+        color: red;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbarInputWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}

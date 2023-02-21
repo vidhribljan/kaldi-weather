@@ -3,34 +3,44 @@
     flex-direction: column;
     gap: 12px;
     border-radius: 6px;
-    border: 1px solid black;
-    box-shadow: 5px 2px 5px gray;
-    max-width: 500px;
-    padding: 8px;
+    box-shadow: 3px 3px 5px #ababab;
+    min-width: 400px;
+    padding: 12px 24px;
+    background-color: #ffffff;
 
-.cardTop {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.cardCenter {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    .cardTemp {
-        font-size: 32px;
-        /* font-weight: 600; */
+    .cardRow {
+        display: flex;
+        align-items: center;
+        gap: 8px;
     }
 
-    .cardWeatherDesc {
-        font-size: 14px;
-        color: #757575;
+    .cardTop {
+        display: flex;
+        justify-content: flex-start;
+
+        .cityName {
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+
+    .cardCenter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .cardTemp {
+            font-size: 44px;
+        }
+
+        .cardWeatherDesc {
+            font-size: 16px;
+            color: #757575;
+        }
     }
 }
-}
 
-.text {
-    
+.card:hover {
+    box-shadow: 5px 5px 10px #ababab;
 }
