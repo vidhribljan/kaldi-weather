@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 6px;
+    border: 1px solid black;
+    box-shadow: 5px 2px 5px gray;
+    max-width: 500px;
+    padding: 8px;
+
+.cardTop {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cardCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .cardTemp {
+        font-size: 32px;
+        /* font-weight: 600; */
+    }
+
+    .cardWeatherDesc {
+        font-size: 14px;
+        color: #757575;
+    }
+}
+}
+
+.text {
+    
+}

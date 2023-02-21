@@ -1,0 +1,25 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    box-shadow: 5px 2px 5px lightgray;
+    max-width: 500px;
+    padding: 8px 12px 0px 12px;
+    cursor: pointer;
+
+    .cardTemp {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .cardBottomRow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .cardCity {
+            font-size: 16px;
+            color: #757575;
+        }
+    }
+}
